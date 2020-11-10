@@ -3,6 +3,33 @@
   min-height: 100vh;
 }
 
+nav {
+  align-items: center;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  min-height: 8vh;
+}
+
+.nav-links {
+  align-items: center;
+  color: gray;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+  width: 50%;
+}
+
+a:visited,
+a:active {
+  color: gray;
+  text-decoration: none !important;
+}
+
 img {
   border-radius: 50%;
   border: 1px solid #efefef;
