@@ -16,6 +16,9 @@ function Nav() {
         <Link to='/recipe'>
           <li>Recipes</li>
         </Link>
+        <Link to='/movies'>
+          <li>Movies</li>
+        </Link>
       </ul>
     </nav>
   );

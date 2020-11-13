@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import About from './About';
 import Home from './Home';
 import Nav from './Nav';
+import MovieList from './MovieList';
 import Recipe from './Recipe';
 import RecipeList from './RecipeList';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -17,6 +18,7 @@ const App = () => {
           < Route path="/about" component={About} />
           < Route path="/recipe" exact component={Recipe} />
           < Route path="/recipe:id" component={RecipeList} />
+          < Route path="/movies" component={MovieList} />
         </Switch>
       </div>
     </Router>
